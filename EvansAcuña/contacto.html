@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="contacto.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h2 class="mi-espacio">MI_ESPACIO</h2>
+        <nav>
+            <a href="bienvenida.html">INICIO</a>
+            <a href="mi_historia.html">MI HISTORIA</a>
+            <a class="link_remarcado" href="contacto.html">FORMULARIO</a>
+            <a href="mis_suenos.html">MIS SUEÑOS</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <p class="no-sec">// Contacto</p>
+            <h2 class="titulo">Dejame un mensaje</h2>
+            <article class="parrafo">
+                <p>Este formulario es solo de práctica, no envía datos a ningún servidor. Sirve para ejercitar etiquetas semánticas de formularios en HTML.</p>
+            </article>
+            <section id="articulos">
+                <article>
+                    <h3 class="titulo-seccion">Nombre</h3>
+                    <input  class="casillas" type="text" id="nombre" name="nombre" placeholder="Tu nombre">
+                </article>
+                <article>
+                    <h3 class="titulo-seccion">Correo electrónico</h3>
+                    <input  class="casillas" type="email" id="correo" name="correo" placeholder="Tu correo electrónico">
+                </article>
+                <article>
+                    <h3 class="titulo-seccion">Asunto</h3>
+                    <input class="casillas" type="text" id="asunto" name="asunto" placeholder="El asunto de tu mensaje">
+                </article>
+                <article>
+                    <h3 class="titulo-seccion">Mensaje</h3>
+                    <select class="casillas" id="mensaje" name="mensaje">
+                        <option value="">Solo para saludar</option>
+                        <option value="sugerencias">Sugerencias</option>
+                        <option value="consultas">Consultas</option>
+                    </select>
+                </article>
+                <article >
+                    <h3 class="titulo-seccion">Como llegaste a este sitio</h3>
+                <article id="casillas">
+                    <input class="casillas" type="radio" id="busqueda" name="llegada" value="busqueda">
+                    <label for="busqueda">Redes Sociales</label>
+                    <input class="casillas" type="radio" id="redes" name="llegada" value="redes">
+                    <label for="redes">Un amigo</label>
+                    <input class="casillas" type="radio" id="buscador" name="llegada" value="buscador">
+                    <label for="buscador">Buscador</label>
+                </article>
+                <article>
+                    <h3 class="titulo-seccion">Asunto</h3>
+                    <input class="casillas" type="text" id="asunto" name="asunto" placeholder="El asunto de tu mensaje">
+                <article>
+            </section>
+        </main>
+    <footer>
+        <span class="footer-text">© 2024 mi_espacio</span>
+        <span class="footer-text">Hecho con HTML y CSS</span>
+    </footer>
+</body>
+</html>

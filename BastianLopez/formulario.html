@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MI Formulario</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="missuenos.html">Mis Sueños</a></li>
+                <li><a href="mihistoria.html">Mi Historia</a></li>
+                <li><a href="formulario.html">Formulario</a></li>
+            </ul>
+        </nav>
+        <h1>Déjame un mensaje</h1>
+        <p>Ayudame a mejorar.</p>
+    </header>
+    <main>
+        <div class="container">
+            <form>
+                <div class="form-group">
+                    <label for="nombre">Nombre Completo</label>
+                    <input type="text" id="nombre" required placeholder="Tu nombre">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Correo Electrónico</label>
+                    <input type="email" id="email" required placeholder="correo@ejemplo.com">
+                </div>
+
+                <div class="form-group">
+                    <label for="preferencia">Interés Principal</label>
+                    <select id="preferencia">
+                        <option value="desarrollo">Critica constructiva</option>
+                        <option value="diseno">Posibilidad de mejoria</option>
+                    </select>
+
+                    <div class="form-group">
+                    <label for="mensaje">Mensaje</label>
+                    <textarea id="mensaje" rows="4" required placeholder="Escribe tu mensaje aquí..."></textarea>
+                    </div>
+                </div>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2026 mi_espacio.</p>
+        <p>hecho con HTML y css</p>
+    </footer>
+</body>
+
+</html>

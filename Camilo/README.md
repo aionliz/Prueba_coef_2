@@ -1,4 +1,3 @@
-
 # Prueba_coef_2
 Prueba de comandos, html, css y de instrucciones.
 
@@ -15,28 +14,28 @@ Prueba de comandos, html, css y de instrucciones.
 11.-
 12.-
 13.-
-14.- Camilo Mori | GitHub: Kamklo09
+14.- Camilo Mori | GitHub:Kamklo09
 15.-
-16.- Sebastian Pereira | Usario git: QndresR
+16.-
 17.-
 18.-
-19.- Evans Acuña
-20.-Baltazar Gonzalez
+19.-
+20.-
 21.-
-22.- Nicolas Mesa
+22.-
 23.-
-24.- Cristian Villobos
+24.-
 25.-
-26.-JoaquinSalamanca
+26.-
 27.-
 28.-
 29.-
-30.-Gianlucas Miranda
-31.-Bastian Lopez
+30.-
+31.-
 32.-
 33.-
 34.-
-35.- samirpenahuaman
+35.-
 36.-
 37.-
 38.-

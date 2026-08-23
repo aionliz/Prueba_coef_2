@@ -1,0 +1,211 @@
+h1 { /*titulos principales*/
+    font-size: 50px;
+    margin-bottom: 20px;
+    color: #C9B6F8;
+    display:flex;
+    justify-content: center;
+}
+
+h3 {    /*titulos menores*/
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #F7B2D9;
+    display:flex;
+    justify-content: center;
+}
+
+
+p { /*el estilo que tendra los parrafos en la web*/
+    font-family: calibri;
+    font-size: 25px;
+    margin-bottom: 20px;
+    color: #C9B6F8;
+}
+
+h6 { /*estilo para textos minusculos*/
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    color: #FBE28A;
+}
+
+.enlace { /*darle decoracion a cada enlace de barre de navegacion*/
+    color: #fff;
+    text-decoration: none;
+    margin: 0 1rem;
+}
+
+a {     /*forma que tendran todos los enlaces*/
+    color: #A8F0C6;
+    margin: 0 1rem;
+}
+
+.Bienvenida {   /*este es para principalmente el index de forma presentativa*/
+    font-size: 1.9rem;
+    color: #fff;
+    margin-left: 1rem;
+}
+
+header { /*forma default que tendra header en toda la web*/
+    background-color: #3a90c900;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 5px;
+    border-bottom: 2px solid #221A36;
+}
+
+.navegador { /*el espacio de caja para los enlaces dentro y esten en fila*/
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.cajadentrodecaja { /*la caja que organizara a las cajas que estan dentro*/
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    color: #fff;
+    text-align: center;
+    background-color: #221a3600;
+    margin-bottom: 20px;
+}
+
+.cajadentrodecaja2 { /*la cajas que estan dentro de la caja principal de los otros HTML*/
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    color: #fff;
+    text-align: center;
+    background-color: #221a3600;
+    margin-bottom: 50px;
+}
+
+.cajas-2 { /*la caja que organizara a las cajas que estan dentro*/
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    height: 400px;
+    width: 400px;
+    color: #fff;
+    margin-right: 50px;
+    margin-left: 50px;
+    text-align: center;
+    padding:10px;
+    background-color: #221A36;
+    border: 2px solid #4b3d6e;
+    border-radius: 10px;
+}
+
+.caja3 {    /*la caja que organizara a las cajas que estan dentro*/
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    height: 400px;
+    width: 400px;
+    color: #fff;
+    padding:10px;
+    margin-right: 50px;
+    margin-left: 50px;
+    text-align: center;
+    background-color: #221A36;
+    border: 2px solid #4b3d6e;
+    border-radius: 10px;
+}
+
+.cajaH { /*Caja especificamente para Historia.html*/
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    height: 400px;
+    width: 400px;
+    color: #fff;
+    padding:10px;
+    margin: 100px;
+    text-align: center;
+    background-color: #8b66e700;
+    border: 2px solid #4b3d6e00;
+    border-radius: 10px;
+}
+
+main { /*orden de los elementos en la páginas main*/
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin:50px;
+    padding: 20px;
+    width: 50%;
+    height: 50%;
+}
+
+.mihistoria { /*estructura principal de main en Historia.html*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin:50px;
+    padding: 20px;
+    width: 50%;
+    height: 50%;
+}
+
+body {  /*el principal cuerpo que tendran las paginas por default*/
+    background-color: #171225;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* A lo vertical */
+    align-items: center;     /* Todo lo horizontal */
+    text-align: center;
+}
+
+footer {    /*el default que tendran los footers en la web*/
+    background-color: #3a90c900;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    border-top: 5px;
+    border-top: 2px solid #221A36;
+}
+
+.footer2 { /*espacio de texto inicial*/
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.footer { /*espacio de texto final*/
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    gap: 20px;
+    justify-content: flex-start;
+    align-items: center;
+    margin-right: 230px;
+}
+
+.inicio { /*texto de la bienvenida del inicio de la web*/
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    gap: 20px;
+    justify-content: flex-start;
+    align-items: center;
+    margin-right: 230px;
+}

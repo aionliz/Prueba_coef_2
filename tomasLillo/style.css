@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration:none;
+    background-color:#1b152b;
+}
+/*Lo de arriba es la parte */
+body{
+    color: #c9b6f8;
+}
+
+h1{
+    color:#f5f0fe;
+}
+
+/*Este*/
+.top1{
+    display: flex;
+    color: #A8F0C6;
+    text-align: left;
+    padding: 15px 40px;
+    font-size: 10px;
+}
+
+/*Y este, son los que van en el header*/
+.top2{
+    gap: 20px;
+    display: flex;
+    color: #A8F0C6;
+    justify-content: right;
+    top: 4%;
+    right: 5.5%;
+    position: absolute;
+}
+
+/*Esto es para el "copyright"*/
+.bottom1{
+    display: flex;
+    color: #6f6485;
+    text-align: left;
+    padding: 15px 40px;
+    font-size: 10px;
+    bottom: -34%;
+    position: absolute;
+}
+
+/*Y este con lo que esta hecho (css y html)*/
+.bottom2{
+    gap: 20px;
+    display: flex;
+    color: #6f6485;
+    justify-content: right;
+    font-size: 10px;
+    bottom: -33%;
+    right: 5.5%;
+    position: absolute;
+}
+.somethingXd{
+    color: #d3be79;
+    display: flex;
+    text-align: left;
+    top: 1%;
+    position: absolute;
+    font-size: 10px;
+}
+
+/*Esto es para los "textos" que sale arrbia con los enlaces*/
+header{
+    background: #171225;
+    padding: 15px 40px;
+    border-bottom: 1px solid #3a2f57;
+}
+
+/*Esto es para los elementos que se encuentran abajo*/
+footer{
+    background: #171225;
+    padding: 15px 40px;
+    border-top: 1px solid #3a2f57;
+    color: #6f6485;
+}
+
+/*Estos dos son para que los enlaces solo salgan de un color*/
+a:link{
+    color: #A8F0C6;
+}
+
+/*Junto con este*/
+a:visited{
+    color: #A8F0C6;
+}
+
+.contenido{
+    max-width: 20%;
+    text-align: left;
+    justify-content: center;
+    position: absolute;
+    top: 12%;
+    left: 40%;
+}
+
+/*Este es el contenedor de las cajas*/
+.cubiculos{
+    position: absolute;
+    right: 45%;
+    top: 40%;
+    max-width: 20%;
+}
+
+/*Esta es la primera caja*/
+.cubiculo1{
+    padding: 20px 20px;
+    border: solid 1px #372d53;
+    border-radius: 15px;
+
+}
+/*Esta la segunda*/
+.cubiculo2{
+    padding: 20px 30px;
+    border: solid 1px #372d53;
+    border-radius: 15px;
+    left: 105%;
+    position: absolute;
+    bottom: -23%;
+}
+
+/*Y esta es la tercera*/
+.cubiculo3{
+    padding: 40px 30px;
+    border: solid 1px #372d53;
+    border-radius: 15px;
+    top: 108%;
+    position: absolute;
+}
+
+.intereses{
+    position: absolute;
+    top: 90%;
+    left: 40%;
+    text-align: center;
+}

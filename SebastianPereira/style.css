@@ -1,0 +1,246 @@
+/* Estilos Generales */
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+html {
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 4em;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    background: radial-gradient(circle, #171225, #201933)
+}
+
+/* Estilo Header general */
+
+header {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    width: 40%;
+    margin-top: 70%;
+}
+
+header span {
+    color: #FBE28A;
+    font-weight: 600;
+}
+
+header p {
+    color:#f1f1f1;
+}
+
+/* Nav Estilos */
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    padding: 20px 50px;
+    border-bottom: 2px solid #312849;
+    backdrop-filter: blur(10px);
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+    z-index: 2;
+}
+
+/* FOOTER */
+
+footer {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    border-top: 2px solid #312849;
+    backdrop-filter: blur(10px);
+    width: 100%;
+    margin-top: 100px;
+}
+
+
+/* ======= Mis sueños ======= */
+
+#main-suenos {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 250px 250px;
+    grid-template-rows: 250px 250px;
+    grid-template-areas: 
+    "corto   mediano"
+    "largo     largo";
+    gap: 50px;
+
+}
+
+.box-suenos {
+    border-radius: 16px;
+    background-color: #221A36;
+    display: flex;
+    justify-content: center;
+    flex-direction: column ;
+    padding: 20px;
+    gap: 20px;
+    border: 2px solid #352a4e;
+}
+
+.box-suenos h2 {
+    color: #F7B2D9;
+}
+
+.box-suenos a {
+    color: #7EE8D4;
+}
+
+/* ======= Mi historia ======= */
+
+
+#header-mi-historia {
+    margin-top: 90%;
+}
+
+#main-historia {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+#main-historia section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    border-left: 2px solid #312849;
+    padding: 20px;
+}
+
+#main-historia section article {
+    display: flex;
+    flex-direction: column;
+    
+    gap: 20px;
+    padding: 20px;
+}
+
+#main-historia section article span {
+    color: #F7B2D9;
+}
+
+#main-historia section article h3 {
+    color: #C9B6F8;
+}
+
+article {
+    position: relative;
+    
+}
+
+.punto-tiempo {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #F7B2D9;
+    position: absolute;
+    left: -28px;
+}
+
+
+/* ======= Inicio ======= */
+
+#main-inicio {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 250px 250px;
+    grid-template-rows: 250px 250px;
+    grid-template-areas: 
+    "historia   formulario"
+    "suenos     suenos";
+    gap: 50px;
+
+}
+
+.box {
+    border-radius: 16px;
+    background-color: #221A36;
+    display: flex;
+    justify-content: center;
+    flex-direction: column ;
+    padding: 20px;
+    gap: 20px;
+    border: 2px solid #352a4e;
+}
+
+.box h2 {
+    color: #F7B2D9;
+}
+
+.box a {
+    color: #7EE8D4;
+}
+
+
+/* ============ Formulario ========= */
+
+#main-formulario {
+    margin-top: 50px;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+}
+
+form label {
+    color: #A8F0C6;
+    font-weight: 600;
+}
+
+.container-options {
+    display: flex;
+    gap: 20px;
+}
+
+form input, form select, form textarea{
+    height: 40px;
+    border-radius:8px;
+    background-color: #221A36;
+    border: 2px solid #352a4e;
+    padding: 0px 10px;
+}
+
+form input[type="submit"] {
+    width: 100px;
+    background-color: #7EE8D4;
+    border: none;
+    color: #000;
+    font-weight: 600;
+}

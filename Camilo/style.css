@@ -1,0 +1,140 @@
+/* Limpio los márgenes por defecto del navegador para que no nos descuadre nada y todo mida exactamente lo que pedimos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Configuro el fondo general de la página con un degradado oscuro en círculo y fijamos la letra principal */
+body {
+    background-image: radial-gradient(circle, #171225, #201933);
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+/* El encabezado arriba: ocupa todo el ancho y usa Flexbox para tirar el logo a la izquierda y el menú a la derecha */
+header {
+    width: 100%;
+    padding: 30px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #251d3b; /* Una línea bien fina para separar la barra superior */
+}
+
+/* Le doy personalidad al texto del logo con ese verde menta y fuente tipo consola de comandos */
+.logo {
+    color: #7EE8D4;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* Acomodo botones de navegación uno al lado del otro dejando un espacio de 30px entre ellos */
+nav {
+    display: flex;
+    gap: 30px;
+}
+
+/* Le quitamos el subrayado feo por defecto a los enlaces y les damos tono morado claro */
+nav a {
+    color: #C9B6F8;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+/* Al pasar el ratón por encima (hover) o si estamos en la página actual, la letra cambia a blanco */
+nav a:hover, nav a.deconav {
+    color: white;
+}
+
+/* Esta línea verde menta abajo sirve para destacar cuál es la pestaña que el usuario tiene abierta actualmente */
+nav a.deconav {
+    border-bottom: 2px solid #7EE8D4;
+    padding-bottom: 5px;
+}
+
+/* El bloque central donde va todo el contenido: fijamos un ancho cómodo y lo centramos en la pantalla */
+main {
+    width: 650px;
+    margin: 60px auto;
+}
+
+/* La etiqueta amarilla estilo "// BIENVENIDA" justo antes del título */
+.subtitulo {
+    color: #FBE28A;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+    margin-bottom: 20px;
+    display: block;
+}
+
+/* El título gigante de bienvenida */
+h1 {
+    font-size: 48px;
+    line-height: 40px;
+    margin-bottom: 25px;
+}
+
+/* Párrafo con la descripción del sitio en letra un poco más grande para que sea fácil de leer */
+.descripcion {
+    color: #C9B6F8;
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+
+/* El contenedor de las tarjetas: si no entran en la misma fila, las baja ordenadamente con un espacio de 20px */
+.Contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* El diseño de las cajitas tipo tarjetas: fondo morado oscuro, bordes suavizados y espacio interno */
+.caja {
+    background-color: #221A36;
+    border: 1px solid #C9B6F8;
+    border-radius: 12px;
+    padding: 30px;
+    width: 315px; 
+}
+
+/* Título dentro de cada tarjeta */
+.caja h2 {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+/* Texto explicativo dentro de la tarjeta */
+.caja p {
+    color: #C9B6F8;
+    font-size: 15px;
+    margin-bottom: 25px;
+}
+
+/* El enlace en verde menta "Leer más ->" al final de cada cajita */
+.linkcajas {
+    color: #7EE8D4;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+/* El pie de página: le ponemos una línea arriba y suficiente margen para que respire del contenido principal */
+footer {
+    width: 100%;
+    border-top: 1px solid #251d3b;
+    padding: 40px 40px;
+    margin-top: 100px;
+}
+
+/* Ordenamos los créditos y la fecha del footer enviándolos a los extremos opuestos */
+.contenidofooter {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12px;
+    color: #C9B6F8;
+}

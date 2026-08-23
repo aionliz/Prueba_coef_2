@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-title"> <!-- Titulo de la pagina en NAVBAR-->
+            <h5>MI_ESPACIO</h5>
+        </div>
+
+        <div class="nav-links"> <!-- Enlaces a los demas html-->
+            <a href="#">INICIO</a>
+            <a href="mi_historia.html">MI HISTORIA</a>
+            <a href="formulario.html">FORMULARIO</a>
+            <a href="mis_suenos.html">MIS SUEÑOS</a>
+        </div>
+    </nav>
+
+    <header> <!-- Header contenedor del titulo y descripcion de la pagina-->
+        <span>// BIENVENIDA</span>
+        <h1>Hola, este es mi espacio web.</h1>
+        <p>Este sitio es un lugar personal donde comparto mi historia, mis intereser y mis metas. Esta construido con HTML semantico y CSS como parte de mi aprendizaje en Fundamentos de la Web</p>
+    </header>
+
+    <main id="main-inicio"> <!-- Main contenedor de los diferentes "box" que contienen cada una de las secciones de la pagina y su definiciones-->
+        <section class="box" style="grid-area: historia"> <!-- Grid area usado para dar nombre al area para la funcion de display: grid-->
+            <h2>Mi Historia</h2>
+            <p>Un recorrido por los momentos que me trajieron aca.</p>
+            <a href="">Leer mas</a>
+        </section>
+
+        <section class="box" style="grid-area: formulario">
+            <h2>Formulario</h2>
+            <p>Un espacio para dejarme un mensaje o tu opinion</p>
+            <a href="">Escribir</a>
+        </section>
+
+        <section class="box" style="grid-area: suenos">
+            <h2>Mis sueños</h2>
+            <p>Las metas que quiero alcanzar, a corto y largo plazo</p>
+            <a href="">Descubrir</a>
+        </section>
+    </main>
+
+    <footer> <!-- Pie de pagina-->
+        <p>&copy; <span>2026</span> mi_espacio</p>
+        <p>hecho con HTML y CSS</p>
+    </footer>
+</body>
+</html>

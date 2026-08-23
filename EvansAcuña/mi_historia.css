@@ -1,0 +1,48 @@
+
+main {
+    padding-bottom: 200px;
+    }
+
+.titulo-seccion {
+    color: #C9B6F8;
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.descripcion {
+    color: #C9B6F8;
+    font-size: 16px;
+    margin-bottom: 20px;
+    font-weight:200;
+}
+
+.articulo {
+    font-size: 18px;
+    padding: 10px 30px;
+    border-radius: 10px;
+    border-left: 1px solid #C9B6F8;
+    display: flex;
+    flex-direction: column;
+    justify-content:start;
+    width: 400px;
+    margin: 10px 20px 10px 0px;
+    line-height: 1.5;
+}
+
+.boton {
+    color: #A8F0C6;
+}
+
+#articulos {
+    align-items: center;    
+    display: flex;
+    flex-direction:column;
+}
+
+#mis-suenos {
+    color: #A8F0C6;
+    font-weight: bold;
+    margin: 0px;
+    padding: 0px;
+}

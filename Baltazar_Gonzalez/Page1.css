@@ -1,0 +1,135 @@
+/* Reseteo basico de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+background-color: #1e133c; /* Color de fondo del cuerpo */
+color: #ffffff; 
+font-family: Arial, sans-serif; /* Fuente del texto */
+line-height: 1.6;
+padding-bottom: 50px;   
+}
+/* Barra de navegación superior derecha */
+.header {
+    width: 100%;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-link {
+    color: #a39bb8;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.nav-link.active {
+    color: #4ade80; /* Tono verde/azul de enlace activo si aplica */
+}
+
+/* Contenedor central */
+.container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.subtitle {
+    color: #a39bb8;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.main-title {
+    font-size: 2.8rem;
+    font-weight: 800;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    max-width: 600px;
+}
+
+.description {
+    color: #c4bfe3;
+    font-size: 1.05rem;
+    max-width: 650px;
+    margin-bottom: 40px;
+}
+
+.description strong {
+    color: #ffffff;
+    font-weight: 600;
+}
+
+/* Rejilla de tarjetas */
+.cards-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columnas principales */
+    gap: 24px;
+    max-width: 700px;
+}
+
+/* Tarjeta individual */
+.card {
+    background-color: rgba(255, 255, 255, 0.05); /* Fondo sutil translúcido */
+    border: 1px solid rgba(255, 255, 255, 0.15); /* Borde suave */
+    border-radius: 12px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 160px;
+}
+
+/* Tercera tarjeta sola abajo */
+.cards-grid .card:nth-child(3) {
+    grid-column: 1; /* Se mantiene en la primera columna debajo de 'Mi Historia' */
+}
+
+.card-title {
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    color: #c4bfe3;
+    font-size: 0.95rem;
+    margin-bottom: 20px;
+    flex-grow: 1;
+}
+
+.card-link {
+    color: #4ade80; /* Color verde claro para los enlaces de flecha */
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 600;
+    display: inline-flex;
+    align-items: center;
+}
+
+.card-link:hover {
+    text-decoration: underline;
+}
+
+/* Adaptación para pantallas móviles */
+@media (max-width: 600px) {
+    .cards-grid {
+        grid-template-columns: 1fr;
+    }
+    .cards-grid .card:nth-child(3) {
+        grid-column: auto;
+    }
+    .main-title {
+        font-size: 2rem;
+    }
+}
