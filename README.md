@@ -3,12 +3,19 @@
 Prueba de comandos, html, css y de instrucciones.
 
 1.- 
+<<<<<<< HEAD
+2.-
+3.- Dante Retamal
+4.-
+5.-
+=======
 2.-benjamin gorigoitia 
 3.- Rodrigo Rojas
 4.-ianMoreno
 5.- Noelia_Troncoso
+>>>>>>> origin/main
 6.-
-7.-TKS-Grey
+7.-
 8.-
 9.-
 10.- Manuel Ibañez |usuario github: ManuelY95

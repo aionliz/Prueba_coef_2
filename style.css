@@ -1,0 +1,179 @@
+/*
+Reset general del documento y base visual del sitio.
+Aquí se quitán márgenes y paddings para que la estructura se vea más limpia.
+*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    background-color: #1b152b;
+}
+
+/*
+Estilo base para el contenido visible en la página.
+El texto principal usa una paleta morada clara y suave.
+*/
+body {
+    color: #c9b6f8;
+}
+
+/*
+Los títulos principales se destacan en blanco para dar contraste.
+*/
+h1 {
+    color: #f5f0fe;
+}
+
+/*
+Parte izquierda del encabezado, donde aparece el nombre del sitio.
+*/
+.top1 {
+    display: flex;
+    color: #A8F0C6;
+    text-align: left;
+    padding: 15px 40px;
+    font-size: 10px;
+}
+
+/*
+Menú de navegación superior, ubicado a la derecha del encabezado.
+*/
+.top2 {
+    gap: 20px;
+    display: flex;
+    color: #A8F0C6;
+    justify-content: right;
+    top: 4%;
+    right: 5.5%;
+    position: absolute;
+}
+
+/*
+Sección inferior izquierda del footer con el texto de copyright.
+*/
+.bottom1 {
+    display: flex;
+    color: #6f6485;
+    text-align: left;
+    padding: 15px 40px;
+    font-size: 10px;
+    bottom: -34%;
+    position: absolute;
+}
+
+/*
+Sección inferior derecha del footer con la referencia del trabajo realizado.
+*/
+.bottom2 {
+    gap: 20px;
+    display: flex;
+    color: #6f6485;
+    justify-content: right;
+    font-size: 10px;
+    bottom: -33%;
+    right: 5.5%;
+    position: absolute;
+}
+
+/*
+Etiqueta visual para el texto de bienvenida inicial de cada página.
+*/
+.somethingXd {
+    color: #d3be79;
+    display: flex;
+    text-align: left;
+    top: 1%;
+    position: absolute;
+    font-size: 10px;
+}
+
+/*
+Cabecera del sitio con fondo oscuro y una línea inferior para separar contenido.
+*/
+header {
+    background: #171225;
+    padding: 15px 40px;
+    border-bottom: 1px solid #3a2f57;
+}
+
+/*
+Pie de página con fondo oscuro y borde superior para cerrar la estructura.
+*/
+footer {
+    background: #171225;
+    padding: 15px 40px;
+    border-top: 1px solid #3a2f57;
+    color: #6f6485;
+}
+
+/*
+Color general de los enlaces, tanto normales como visitados.
+*/
+a:link {
+    color: #A8F0C6;
+}
+
+
+a:visited {
+    color: #A8F0C6;
+}
+
+/*
+Contenedor principal del texto introductorio de cada página.
+*/
+.contenido {
+    max-width: 20%;
+    text-align: left;
+    justify-content: center;
+    position: absolute;
+    top: 12%;
+    left: 40%;
+}
+
+/*
+Agrupa las tarjetas de contenido en un bloque central.
+*/
+.cubos {
+    position: absolute;
+    right: 45%;
+    top: 40%;
+    max-width: 20%;
+}
+
+/*
+Primera tarjeta de información con borde redondeado y padding interno.
+*/
+.cubo1 {
+    padding: 20px 20px;
+    border: solid 1px #372d53;
+    border-radius: 15px;
+
+}
+
+/*Segunda tarjeta, posicionada a la derecha de la primera para crear una composición visual.*/
+.cubo2 {
+    padding: 20px 30px;
+    border: solid 1px #372d53;
+    border-radius: 15px;
+    left: 105%;
+    position: absolute;
+    bottom: -23%;
+}
+
+/*Tercera tarjeta, ubicada debajo de las demás para completar la galería de bloques.*/
+.cubiculo3 {
+    padding: 40px 30px;
+    border: solid 1px #372d53;
+    border-radius: 15px;
+    top: 108%;
+    position: absolute;
+}
+
+/*Sección de intereses, alineada en el centro para destacar un bloque final.*/
+.intereses {
+    position: absolute;
+    top: 90%;
+    left: 40%;
+    text-align: center;
+}
