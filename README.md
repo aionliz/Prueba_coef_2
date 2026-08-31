@@ -3,11 +3,11 @@ Prueba de comandos, html, css y de instrucciones.
 
 1.- 
 2.-
-3.-
+3.- Dante Retamal
 4.-
 5.-
 6.-
-7.-TKS-Grey
+7.-
 8.-
 9.-
 10.-
