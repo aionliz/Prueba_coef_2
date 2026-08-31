@@ -2,9 +2,9 @@
 ### Fundamentos de la Web · III° Medio
 *Git · GitHub · HTML · CSS — Landing Page*
 
-**Nombre:** _Cristian__Villalobos______________________________________
+**Nombre:** ____Manuel ibañez________________________________
 
-**Curso:** 3° B TP &nbsp;&nbsp;&nbsp; **Fecha:03-08-2026** _______________
+**Curso:** 3° B TP &nbsp;&nbsp;&nbsp; **Fecha:** ___03/08/2026___
 
 ---
 

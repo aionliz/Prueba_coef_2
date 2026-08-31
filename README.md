@@ -18,7 +18,7 @@ Prueba de comandos, html, css y de instrucciones.
 7.-
 8.-
 9.-
-10.-
+10.- Manuel Ibañez |usuario github: ManuelY95
 11.- Felipe Gutierrez
 12.-
 13.-
@@ -52,5 +52,5 @@ Prueba de comandos, html, css y de instrucciones.
 41.-
 42.-
 43.-
-44.-
+44.- Cristian Villalobos
 45.- Profesora Liza Molina 

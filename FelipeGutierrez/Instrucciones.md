@@ -2,9 +2,9 @@
 ### Fundamentos de la Web · III° Medio
 *Git · GitHub · HTML · CSS — Landing Page*
 
-**Nombre:** _Cristian__Villalobos______________________________________
+**Nombre:Felipe Gutierrez** _______________________________________________
 
-**Curso:** 3° B TP &nbsp;&nbsp;&nbsp; **Fecha:03-08-2026** _______________
+**Curso:** 3° B TP  **Fecha:** _31/08/2026______________
 
 ---
 
