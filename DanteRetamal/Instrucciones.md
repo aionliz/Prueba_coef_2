@@ -2,9 +2,9 @@ PRUEBA COEFICIENTE 2
 Fundamentos de la Web · III° Medio
 Git · GitHub · HTML · CSS — Landing Page
 
-Nombre: 
+Nombre: Dante Retamal
 
-Curso: 3° B TP     Fecha: 
+Curso: 3° B TP     Fecha: 03/08/2026
 
 Instrucciones generales
 Asegúrate de configurar Visual Studio Code y Git con tus credenciales.
