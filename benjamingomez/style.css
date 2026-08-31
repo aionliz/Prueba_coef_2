@@ -1,0 +1,72 @@
+body{
+    background-color: #171225;
+}
+
+.Contenedor2{
+    color: yellow;
+    margin-left: -360px;
+    text-align: center;
+    margin-top: 140px;
+}
+
+.Contenedor1{
+
+    color: white;
+    text-align: center;
+    margin-left: -19px;
+}
+
+.Cuadrado1{
+    background-color: #352858;
+    text-align: center;
+    width: 250px;
+    height: 200px;
+    margin-left: 508px;
+    border-radius: 20px;
+    color: white;
+}
+
+.Cuadrado2{
+    background-color: #352858;
+    text-align: center;
+    width: 250px;
+    height: 200px;
+    margin-left: 508px;
+    border-radius: 20px;
+    color: white;
+}
+
+.Cuadrado3{
+    background-color: #352858;
+    text-align: center;
+    width: 250px;
+    height: 200px;
+    margin-left: 800px;
+    border-radius: 20px;    
+    margin-top: -442px;
+    color: white;
+}
+
+.Barranavegacion1{
+    display: flex;
+    gap: 20px;
+    border-bottom: 2px solid #352858;
+    color: #2cdb6f;
+    margin-top: 10px;
+}
+
+a {
+    color: #2cdb6f;
+    gap: 20px;
+    position: relative;
+    left: 1050px;
+
+    text-decoration: none;
+    
+}
+
+.Contenedor4{
+    color: white;
+    text-align: center;
+    margin-left: -19px;
+}

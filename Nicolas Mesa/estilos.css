@@ -1,0 +1,35 @@
+/* Estilos generales de todos los html */
+body {
+    background-color: #171225;
+}
+a {
+    color: #A8F0C6;
+}
+h1{
+    color: white;
+}
+article{
+    text-align: center;
+}
+h3, p{
+    color: #C9B6F8;
+}
+h4{
+    color: #FBE28A;
+}
+/* intento de corregir nav */
+.espacioalinicio{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.final{
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* Estilos para el formulario */
+input, textarea{
+    color: #a8f0c6;
+    background-color: #171225;
+}

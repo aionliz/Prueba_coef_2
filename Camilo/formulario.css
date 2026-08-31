@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: radial-gradient(circle, #171225, #201933);
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    width: 100%;
+    padding: 30px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #251d3b;
+}
+
+.logo {
+    color: #7EE8D4;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+nav {
+    display: flex;
+    gap: 30px;
+}
+
+nav a {
+    color: #C9B6F8;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+nav a:hover, nav a.active {
+    color: #ffffff;
+}
+
+nav a.active {
+    border-bottom: 2px solid #7EE8D4;
+    padding-bottom: 5px;
+}
+
+main {
+    width: 650px;
+    margin: 60px auto;
+}
+
+.subtitulo {
+    color: #FBE28A;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+    margin-bottom: 20px;
+    display: block;
+}
+
+h1 {
+    font-size: 48px;
+    line-height: 40px;
+    margin-bottom: 25px;
+}
+
+.descripcion {
+    color: #C9B6F8;
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+
+.formulario {
+    margin-bottom: 25px;
+}
+
+.label {
+    display: block;
+    color: #7EE8D4;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 13px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.input {
+    width: 100%;
+    background-color: #221A36;
+    border: 1px solid #C9B6F8;
+    color: #ffffff;
+    padding: 16px;
+    border-radius: 8px;
+    font-size: 15px;
+    outline: none;
+    font-family: Arial, sans-serif;
+}
+
+
+
+textarea.input {
+    height: 150px;
+    resize: vertical;
+}
+
+.opciones {
+    margin-bottom: 30px;
+}
+
+.opciones p {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.radio {
+    display: flex;
+    gap: 30px;
+    color: #C9B6F8;
+    font-size: 15px;
+}
+
+.radio label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+}
+
+.enviar {
+    background-color: #7EE8D4;
+    color: #171225;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+footer {
+    width: 100%;
+    border-top: 1px solid #251d3b;
+    padding: 40px 40px;
+    margin-top: 100px;
+}
+
+.footer-contenido {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12px;
+    color: #C9B6F8;
+}

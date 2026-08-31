@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Contacto</title>
+    <link rel="stylesheet" href="Page3.css">
+</head>
+<body>
+
+    <main class="form-container">
+        <span class="subtitle">// CONTACTO</span>
+        <h1>Déjame un mensaje</h1>
+        <p class="description">
+            Este formulario es solo de práctica; no envía datos a ningún servidor. Sirve para ejercitar etiquetas semánticas de formularios en HTML.
+        </p>
+
+        <form action="#">
+            <nav class="form-group">
+                <label for="nombre">NOMBRE</label>
+                <input type="text" id="nombre" placeholder="Tu nombre" required>
+            </nav>
+
+            <nav class="form-group">
+                <label for="email">CORREO ELECTRÓNICO</label>
+                <input type="email" id="email" placeholder="tucorreo@ejemplo.com" required>
+            </nav>
+
+            <nav class="form-group">
+                <label for="asunto">ASUNTO</label>
+                <select id="asunto">
+                    <option value="saludar">Solo quiero saludar</option>
+                    <option value="trabajo">Propuesta de trabajo</option>
+                    <option value="error">Reportar un error</option>
+                </select>
+            </nav>
+
+            <nav class="form-group">
+                <label>¿Cómo llegaste a este sitio?</label>
+                <nav class="radio-group">
+                    <label><input type="radio" name="origen" value="redes"> Redes sociales</label>
+                    <label><input type="radio" name="origen" value="amigo"> Un amigo</label>
+                    <label><input type="radio" name="origen" value="buscador"> Buscador</label>
+                </nav>
+            </nav>
+
+            <nav class="form-group">
+                <label for="mensaje">MENSAJE</label>
+                <textarea id="mensaje" rows="4" placeholder="Escribe aquí tu mensaje..."></textarea>
+            </nav>
+
+            <button type="submit" class="btn-submit">Enviar</button>
+        </form>
+    </main>
+
+</body>
+</html>

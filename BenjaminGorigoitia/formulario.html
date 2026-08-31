@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="formulario.css">
+</head>
+<body>
+    <header>
+        <div class="logo">MI_ESPACIO</div>
+        <nav>
+            <a href="index.html">INICIO</a>
+            <a href="mi_historia.html">MI HISTORIA</a>
+            <a href="formulario.html" class="active">FORMULARIO</a>
+            <a href="sueños.html">MIS SUEÑOS</a>
+        </nav>
+    </header>
+
+    <main>
+        <span class="subtitulo">// CONTACTO</span>
+        <h1>Déjame un mensaje</h1>
+        <p class="descripcion">
+            Este formulario es solo de práctica: no envía datos a ningún servidor. Sirve para ejercitar etiquetas semánticas de formularios en HTML.
+        </p>
+
+        <form>
+            <div class="formulario">
+                <label class="label">NOMBRE</label>
+                <input type="text" class="input" placeholder="Tu nombre">
+            </div>
+
+            <div class="formulario">
+                <label class="label">CORREO ELECTRÓNICO</label>
+                <input type="email" class="input" placeholder="Tu correo @ejemplo.com">
+            </div>
+
+            <div class="formulario">
+                <label class="label">ASUNTO</label>
+                <select class="input">
+                    <option>Solo quiero saludar</option>
+                </select>
+            </div>
+
+            <div class="opciones">
+                <p>¿Cómo llegaste a este sitio?</p>
+                <div class="radio">
+                    <label><input type="radio" name="origen"> Redes sociales</label>
+                    <label><input type="radio" name="origen"> Un amigo</label>
+                    <label><input type="radio" name="origen"> Buscador</label> 
+                </div>
+            </div>
+
+            <div class="formulario">
+                <label class="label">MENSAJE</label>
+                <textarea class="input" placeholder="Escribe aquí tu mensaje..."></textarea>
+            </div>
+
+            <button type="submit" class="enviar">ENVIAR</button>
+        </form>
+    </main>
+
+    <footer>
+        <div class="footer-contenido">
+            <span> 2026 mi_espacio</span>
+            <span>hecho con html + css</span>
+        </div>
+    </footer>
+</body>
+</html>

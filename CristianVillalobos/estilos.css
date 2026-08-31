@@ -1,0 +1,41 @@
+body{   
+    background-color: #171225;
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+    text-decoration: none;
+}
+/* Cuerpo de los html */
+div{
+    background-color: #221A36;
+    color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    font-family: 'Arial', sans-serif;
+    align-items: center;
+    text-decoration: none;
+
+}
+h4{
+    color: #FBE28A;
+    text-align: start;
+    text-decoration: none;
+}
+/* Subtítulos */
+
+h5{
+    color: #F7B2D9;
+    text-align: start;
+    text-decoration: none;
+}
+/* Años (Mi historia) */
+
+nav{
+    background-color: #221A36;
+    color: #fff;
+    padding: 10px;
+    text-align: end;
+    display: flex;
+    justify-content: space-evenly;
+}
+/* Barra de navegación */

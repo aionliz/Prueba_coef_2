@@ -2,7 +2,7 @@ PRUEBA COEFICIENTE 2
 Fundamentos de la Web · III° Medio
 Git · GitHub · HTML · CSS — Landing Page
 
-Nombre: Tomás Lillo Luna
+Nombre: Dante Retamal
 
 Curso: 3° B TP     Fecha: 03/08/2026
 
