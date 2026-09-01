@@ -1,79 +1,77 @@
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
+* {
+    margin:0; /* Quita los márgenes por defecto que los navegadores le ponen al HTML */
+    padding:0; /* Quita el relleno/espacio interno por defecto del HTML */
+    box-sizing:border-box; /* Hace que el tamaño total de las cajas no se deforme al añadir bordes o rellenos */
 }
 
-body{
-    background-color:#171325;
-    color:white;
-    font-family:Arial, Helvetica, sans-serif;
+body {
+    background-color:#171325; /* Pinta todo el fondo de la pantalla con un tono morado muy oscuro */
+    color:white; /* Cambia el color de todos los textos del HTML a blanco */
+    font-family:Arial, Helvetica, sans-serif; /* Define la tipografía limpia para todo el texto */
 }
 
-section{
-    text-align:center;
-    padding:50px;
+section {
+    text-align:center; /* Centra el título <h1> que está dentro del <section> */
+    padding:50px; /* Crea un espacio de 50px arriba y abajo del título para despejarlo */
 }
 
-h1{
-    font-size:50px;
-    color:#ece6ff;
-    margin-bottom:15px;
+h1 {
+    font-size:50px; /* Le da un tamaño gigante al texto "Déjame un mensaje" */
+    color:#ece6ff; /* Cambia el color del título a un morado/violeta muy claro */
+    margin-bottom:15px; /* Crea un espacio hacia abajo de 15px para separarlo del contenido */
 }
 
-p{
-    color:#a8a2c5;
-    font-size:18px;
+p {
+    color:#a8a2c5; /* Cambia el texto del footer ("Samir Peña") a un morado grisáceo suave */
+    font-size:18px; /* Ajusta el tamaño de la letra del párrafo a 18px */
 }
 
-main{
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    min-height:450px;
+main {
+    display:flex; /* Activa la tecnología Flexbox para acomodar el formulario */
+    justify-content:center; /* Centra el formulario de izquierda a derecha en la pantalla */
+    align-items:center; /* Centra el formulario de arriba a abajo en la pantalla */
+    min-height:450px; /* Le da una altura mínima al área principal para asegurar que el centrado vertical funcione */
 }
 
-form{
-    width:420px;
+form {
+    width:420px; /* Le da un ancho fijo de 420 píxeles a la caja del formulario */
 }
 
-nav{
-    width:100%;
+nav {
+    width:100%; /* Hace que la etiqueta <nav> se expanda al 100% de los 420px del formulario */
 }
 
-ul{
-    list-style:none;
-    background-color:#211b35;
-    border:2px solid #6b4bd6;
-    border-radius:15px;
-    padding:30px;
-    display:flex;
-    flex-direction:column;
-    gap:20px;
-    box-shadow:0 0 25px rgba(107,75,214,0.4);
+ul {
+    list-style:none; /* Le quita las viñetas o puntos negros por defecto a la lista <ul> */
+    background-color:#211b35; /* Le da un fondo morado oscuro a la tarjeta del formulario */
+    border:2px solid #6b4bd6; /* Le pone un borde morado brillante de 2px alrededor */
+    border-radius:15px; /* Redondea las 4 esquinas del cuadro con un radio de 15px */
+    padding:30px; /* Crea un espacio interno de 30px dentro del cuadro para que nada toque los bordes */
+    display:flex; /* Activa Flexbox dentro de la lista */
+    flex-direction:column; /* Acomoda los elementos <li> uno debajo de otro en dirección vertical */
+    gap:20px; /* Deja una separación de 20px entre cada campo del formulario */
+    box-shadow:0 0 25px rgba(107,75,214,0.4); /* Crea un resplandor o sombra de neón morada alrededor del cuadro */
 }
 
-li{
-    display:flex;
-    flex-direction:column;
-    gap:8px;
+li {
+    display:flex; /* Activa Flexbox dentro de cada elemento de la lista */
+    flex-direction:column; /* Pone el texto <label> arriba y la casilla <input> abajo */
+    gap:8px; /* Deja un espacio de 8px entre el texto <label> y el campo de texto */
 }
 
-label{
-    color:#d8d2f7;
-    font-size:18px;
+label {
+    color:#d8d2f7; /* Le da un tono morado claro a los textos "Nombre:", "Apellido:", etc. */
+    font-size:18px; /* Ajusta el tamaño de letra de los textos de los campos a 18px */
 }
 
-
-
-textarea{
-    height:100px;
-    resize:none;
+textarea {
+    height:100px; /* Ajusta la altura de la caja de mensaje a 100 píxeles */
+    resize:none; /* Quita la pestaña del mouse para impedir que el usuario estire o deforme el cuadro de texto */
 }
 
-footer{
-    text-align:center;
-    margin-top:40px;
-    padding:20px;
-    border-top:1px solid #4a3c74;
+footer {
+    text-align:center; /* Centra el texto del pie de página */
+    margin-top:40px; /* Deja una separación de 40px por encima del footer para despejarlo del formulario */
+    padding:20px; /* Crea un espacio interno de 20px dentro del footer */
+    border-top:1px solid #4a3c74; /* Dibuja una línea horizontal morada en la parte superior para dividir la pantalla */
 }
