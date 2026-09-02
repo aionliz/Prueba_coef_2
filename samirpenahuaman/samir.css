@@ -1,64 +1,62 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+    margin: 0; /* Quita los márgenes por defecto del navegador en todo el HTML */
+    padding: 0; /* Quita el relleno/espacio interno por defecto del HTML */
+    box-sizing: border-box; /* Evita que las cajas se deformen al cambiar bordes o espacios */
 }
 
-body{
-    background-color: #171325;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
+body {
+    background-color: #171325; /* Pinta todo el fondo de tu página de un color morado muy oscuro */
+    color: white; /* Hace que el texto general del HTML sea blanco */
+    font-family: Arial, Helvetica, sans-serif; /* Define la tipografía Arial/sans-serif para toda la página */
 }
 
-section{
-    text-align: center;
-    padding: 50px;
+section {
+    text-align: center; /* Centra el texto del <section> ("index" y "2026 en que ando") */
+    padding: 50px; /* Crea un espacio de 50px alrededor de la sección del título */
 }
 
-h1{
-    font-size: 50px;
-    color: #ece6ff;
-    margin-bottom: 15px;
+h1 {
+    font-size: 50px; /* Le da un tamaño gigante al título "index" */
+    color: #ece6ff; /* Pinta el texto "index" de un violeta muy claro casi blanco */
+    margin-bottom: 15px; /* Empuja el párrafo "2026 en que ando" 15px hacia abajo */
 }
 
-p{
-    color: #a8a2c5;
-    font-size: 18px;
+p {
+    color: #a8a2c5; /* Pinta el texto "2026 en que ando" y "samir peña" de morado grisáceo */
+    font-size: 18px; /* Aplica un tamaño de 18px a los párrafos del HTML */
 }
 
-header{
-    display: flex;
-    justify-content: center;
-    margin-top: 30px;
+header {
+    display: flex; /* Activa el sistema Flexbox en el <header> */
+    justify-content: center; /* Centra horizontalmente el menú <nav> en la pantalla */
+    margin-top: 30px; /* Despeja el <header> separándolo 30px del <section> de arriba */
 }
 
-nav{
-    width: 700px;
+nav {
+    width: 700px; /* Define un ancho fijo de 700px para la caja contenedora de tu lista */
 }
 
-ul{
-    list-style: none;
+ul {
+    list-style: none; /* Le quita los puntos negros por defecto a tu lista de metas */
 }
 
-li{
-    background-color: #211b35;
-    border: 1px solid #6b4bd6;
-    border-radius: 10px;
-    padding: 20px;
-    margin-bottom: 20px;
-    color: #d8d2f7;
-    transition: 0.3s;
+li {
+    background-color: #211b35; /* Le da fondo morado a cada cuadro ("3B tp", "feria tp", etc.) */
+    border: 1px solid #6b4bd6; /* Pone un borde morado brillante alrededor de cada rectángulo */
+    border-radius: 10px; /* Redondea las esquinas de cada tarjeta de texto a 10px */
+    padding: 20px; /* Otorga un espacio interno de 20px dentro de cada tarjeta para separar el texto */
+    margin-bottom: 20px; /* Separa cada tarjeta 20px hacia abajo respecto a la siguiente */
+    color: #d8d2f7; /* Cambia el color de las letras de tu lista a un morado claro */
+    transition: 0.3s; /* Prepara la tarjeta para animaciones suaves si le agregas efectos al pasar el mouse */
 }
 
-
-
-main{
-    min-height: 250px;
+main {
+    min-height: 250px; /* Le asegura una altura mínima de 250px a la zona vacía del <main> */
 }
 
-footer{
-    text-align: center;
-    margin-top: 80px;
-    padding: 20px;
-    border-top: 1px solid #4a3c74;
+footer {
+    text-align: center; /* Centra el texto de tu firma "samir peña" */
+    margin-top: 80px; /* Separa el pie de página 80px hacia abajo del contenido superior */
+    padding: 20px; /* Agrega 20px de relleno interno dentro del pie de página */
+    border-top: 1px solid #4a3c74; /* Dibuja una línea fina morada por encima de tu nombre */
 }

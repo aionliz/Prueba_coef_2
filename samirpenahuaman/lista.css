@@ -1,69 +1,69 @@
-
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    margin: 0; /* Quita todos los márgenes exteriores por defecto del HTML */
+    padding: 0; /* Quita todos los rellenos o espacios interiores por defecto */
+    box-sizing: border-box; /* Asegura que el tamaño total de las cajas no cambie al añadir bordes o rellenos */
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
-    background: radial-gradient(circle, #171225 0%, #201933 100%);
-  
+    font-family: Arial, Helvetica, sans-serif; /* Define la tipografía para todo el texto de la página */
+    color: white; /* Define el color blanco como texto base */
+    background: radial-gradient(circle, #171225 0%, #201933 100%); /* Crea un fondo con degradado circular desde un morado oscuro hacia uno más claro */
 }
 
 nav {
-    background-color: #221A36;
-    padding: 18px;
-    box-shadow: 0 3px 8px rgba(0,0,0,.3);
+    background-color: #221A36; /* Pinta la barra de navegación superior con un color morado violeta */
+    padding: 18px; /* Le da un espacio interno de 18px alrededor de la barra */
+    box-shadow: 0 3px 8px rgba(0,0,0,.3); /* Crea una sombra negra suave debajo del menú para darle profundidad */
 }
 
 ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    gap: 25px;
+    list-style: none; /* Le quita los puntos negros por defecto a la lista de botones */
+    display: flex; /* Activa Flexbox para colocar los botones del menú en una sola fila horizontal */
+    justify-content: center; /* Centra horizontalmente todos los enlaces del menú en la pantalla */
+    gap: 25px; /* Crea un espacio fijo de 25px de separación entre cada botón */
 }
 
 li {
-    display: inline-block;
+    display: inline-block; /* Asegura que los ítems de la lista se comporten como bloques alineados */
 }
 
 a {
-    text-decoration: none;
-    color: #171225;
-    background-color: #F7B2D9;
-    font-weight: bold;
-    padding: 10px 18px;
-    border-radius: 8px;
-    transition: 0.3s;
+    text-decoration: none; /* Le quita la línea subrayada a los enlaces ("Inicio", "Mi Historia", etc.) */
+    color: #171225; /* Pinta el texto de las letras de los enlaces en un color morado muy oscuro */
+    background-color: #F7B2D9; /* Le da un fondo de color rosa claro a cada botón */
+    font-weight: bold; /* Pone las letras de los botones en negrita */
+    padding: 10px 18px; /* Crea un relleno interno para darle forma de botón (10px arriba/abajo y 18px a los lados) */
+    border-radius: 8px; /* Redondea las esquinas de los botones con un radio de 8px */
+    transition: 0.3s; /* Prepara los botones para animaciones suaves (por ejemplo, si agregas un :hover) */
 }
+
 main {
-    width: 90%;
-    max-width: 1000px;
-    margin: 40px auto;
+    width: 90%; /* Hace que el contenedor principal ocupe el 90% del ancho de la pantalla */
+    max-width: 1000px; /* Limita el ancho máximo del contenedor principal a 1000 píxeles */
+    margin: 40px auto; /* Deja 40px de espacio arriba y abajo, y centra la caja automáticamente a los lados */
 }
 
 section {
-    background-color: #221A36;
-    padding: 30px;
-    border-radius: 12px;
-    border: 2px solid #C9B6F8;
+    background-color: #221A36; /* Le da un fondo morado a la tarjeta donde va tu relato */
+    padding: 30px; /* Crea un espacio interno de 30px dentro de la tarjeta para despejar el texto */
+    border-radius: 12px; /* Redondea las cuatro esquinas de la tarjeta con 12px */
+    border: 2px solid #C9B6F8; /* Dibuja un borde morado claro/pastel de 2px de grosor alrededor del cuadro */
 }
 
 h1 {
-    color: #FBE28A;
-    margin-bottom: 20px;
+    color: #FBE28A; /* Pinta el título principal ("mi historia") con un color amarillo pastel suave */
+    margin-bottom: 20px; /* Despeja el párrafo de texto hacia abajo por 20px */
 }
 
 p {
-    color: #A8F0C6;
-    line-height: 1.6;
+    color: #A8F0C6; /* Pinta el texto del relato con un color verde menta pastel */
+    line-height: 1.6; /* Aumenta el interlineado (espacio entre renglones) para que la lectura sea fácil */
 }
 
 footer {
-    text-align: center;
-    padding: 20px;
-    margin-top: 40px;
-    color: #C9B6F8;
+    text-align: center; /* Centra la firma de tu nombre al final de la página */
+    padding: 20px; /* Le da un relleno interno de 20px al pie de página */
+    margin-top: 40px; /* Separa el pie de página 40px hacia abajo del contenido superior */
+    color: #C9B6F8; /* Cambia el color de tu nombre "samir peña" a morado claro pastel */
 }
+

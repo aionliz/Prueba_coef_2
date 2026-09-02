@@ -1,60 +1,56 @@
-
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    margin: 0; /* Quita todos los márgenes exteriores por defecto del HTML */
+    padding: 0; /* Quita los rellenos o espacios interiores por defecto */
+    box-sizing: border-box; /* Asegura que el tamaño de las cajas no cambie al añadir bordes o rellenos */
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
-    background: radial-gradient(circle, #171225 0%, #201933 100%);
-  
+    font-family: Arial, Helvetica, sans-serif; /* Define la tipografía para todo el texto de la página */
+    color: white; /* Establece el color de letra blanco como base */
+    background: radial-gradient(circle, #171225 0%, #201933 100%); /* Crea un fondo con degradado circular desde morado muy oscuro a otro un poco más claro */
 }
 
 nav {
-    background-color: #221A36;
-    padding: 18px;
-    box-shadow: 0 3px 8px rgba(0,0,0,.3);
+    background-color: #221A36; /* Le da un fondo morado/violeta a la barra de navegación */
+    padding: 18px; /* Otorga un espacio interno de 18px alrededor de la barra */
+    box-shadow: 0 3px 8px rgba(0,0,0,.3); /* Aplica una sombra negra suave hacia abajo para dar efecto de profundidad */
 }
 
 ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    gap: 25px;
+    list-style: none; /* Le quita las viñetas o puntos negros por defecto a la lista */
+    display: flex; /* Activa Flexbox para poner los elementos en una sola fila horizontal */
+    justify-content: center; /* Centra horizontalmente los ítems de la lista en la pantalla */
+    gap: 25px; /* Deja un espacio constante de 25px de separación entre cada ítem */
 }
 
 li {
-    display: inline-block;
+    display: inline-block; /* Hace que cada elemento de la lista se comporte como un bloque alineado horizontalmente */
 }
 
 main {
-    width: 90%;
-    max-width: 1000px;
-    margin: 40px auto;
+    width: 90%; /* Hace que el contenedor principal ocupe el 90% del ancho de la pantalla */
+    max-width: 1000px; /* Evita que el contenedor crezca más de 1000 píxeles de ancho */
+    margin: 40px auto; /* Deja 40px de espacio arriba/abajo y centra el contenido horizontalmente en la pantalla */
 }
 
 section {
-    background-color: #221A36;
-    padding: 30px;
-    border-radius: 12px;
-    border: 2px solid #C9B6F8;
+    background-color: #221A36; /* Pinta el fondo de la tarjeta de contenido con un tono morado */
+    padding: 30px; /* Crea un espacio de relleno interno de 30px dentro de la tarjeta */
+    border-radius: 12px; /* Redondea las cuatro esquinas del cuadro con un radio de 12px */
+    border: 2px solid #C9B6F8; /* Coloca un borde continuo de 2px en tono morado claro alrededor de la tarjeta */
 }
 
 h1 {
-    color: #FBE28A;
-    
+    color: #FBE28A; /* Cambia el color del título principal a un amarillo pastel claro */
 }
 
 p {
-    color: #A8F0C6;
-    
+    color: #A8F0C6; /* Cambia el color del texto del párrafo a un verde menta pastel */
 }
 
 footer {
-    text-align: center;
-    padding: 20px;
-    margin-top: 40px;
-    color: #C9B6F8;
+    text-align: center; /* Centra el texto de tu firma al final de la pantalla */
+    padding: 20px; /* Agrega un espacio interno de 20px en el pie de página */
+    margin-top: 40px; /* Separa el pie de página 40px hacia abajo respecto al contenido */
+    color: #C9B6F8; /* Pinta el texto del pie de página con un tono morado claro */
 }
