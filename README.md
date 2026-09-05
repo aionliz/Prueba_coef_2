@@ -20,7 +20,7 @@ Prueba de comandos, html, css y de instrucciones.
 15.-
 16.- Sebastian Pereira | Usario git: QndresR
 17.-
-18.-
+18.- Gianella Medina / github: gianella65
 19.- Evans Acuña
 20.-Baltazar Gonzalez
 21.-
